@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #1c1c1c;
+        }   
+
+header{
+    text-align: center;
+    background: linear-gradient(rgb(15, 15, 15), #1c1c1c);
+        }
+
+/*LOGO*/
+header .container {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #d11b22;
+}
+
+/*TAMANHO LOGO*/
+header .container img{
+ width: 300px; 
+}
+
+main{
+    margin-top: 50px;
+}
+nav a{
+    background-color: whitesmoke;
+    border-radius: 3px;
+    text-align: center;
+    
+    
+}
+
+nav{  
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;   
+}
+
+nav a{
+    background:whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    text-decoration: none;
+    color: #e64141;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: whitesmoke;
+    font-weight: bold;
+    box-shadow: 0px 0px 28px rgb(121, 34, 34);
+}
+
+main .container .primeira .titulo{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+main .container .primeira .texto{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+main .container{
+display: flex;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 30px;
+}
+main .container .diferenciais{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+}
+
+main .container .produtos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+}
+
